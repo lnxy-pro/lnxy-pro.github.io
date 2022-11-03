@@ -1,12 +1,10 @@
-
-
 # 👋 Welcome to A Product
 
 {% hint style="info" %}
 GitBook tip: your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
 {% endhint %}
 
-主机检查&#x20;
+主机检查
 
 Here are a couple of example overviews from products with really great docs:
 
@@ -32,14 +30,14 @@ Quick links
 
 Get Started We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="shellcode/getting-set-up/" %}
-[getting-set-up](shellcode/getting-set-up/)
+{% content-ref url="service-configuration/getting-set-up/" %}
+[getting-set-up](service-configuration/getting-set-up/)
 {% endcontent-ref %}
 
-{% content-ref url="shellcode/getting-set-up/yi-ju-hua.md" %}
-[yi-ju-hua.md](shellcode/getting-set-up/yi-ju-hua.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="shellcode/getting-set-up/inviting-members.md" %}
-[inviting-members.md](shellcode/getting-set-up/inviting-members.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

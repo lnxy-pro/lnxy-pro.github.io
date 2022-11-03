@@ -4,18 +4,6 @@
 
 ## overview
 
-* [💡 基线检查](overview/ji-xian-jian-cha/README.md)
-  * [网络](overview/ji-xian-jian-cha/wang-luo.md)
-  * [交换机](overview/ji-xian-jian-cha/jiao-huan-ji.md)
-  * [IDS入侵检测](overview/ji-xian-jian-cha/ids-ru-qin-jian-ce.md)
-  * [WAF](overview/ji-xian-jian-cha/waf.md)
-  * [防火墙策略](overview/ji-xian-jian-cha/fang-huo-qiang-ce-lve.md)
-  * [主机系统](overview/ji-xian-jian-cha/zhu-ji-xi-tong.md)
-* [🦝 服务配置](overview/fu-wu-pei-zhi/README.md)
-  * [Oracle](overview/fu-wu-pei-zhi/oracle.md)
-  * [SQLserver](overview/fu-wu-pei-zhi/sqlserver.md)
-  * [Mysql](overview/fu-wu-pei-zhi/mysql.md)
-  * [Nginx](overview/fu-wu-pei-zhi/nginx.md)
 * [🎮 渗透测试](overview/shen-tou-ce-shi/README.md)
   * [主机探测](overview/shen-tou-ce-shi/zhu-ji-tan-ce.md)
   * [Web漏扫](overview/shen-tou-ce-shi/web-lou-sao.md)
@@ -35,6 +23,19 @@
     * [PTK](overview/shen-tou-ce-shi/heng-xiang-yi-dong/ptk.md)
   * [Cobalt Strike 4.7](overview/shen-tou-ce-shi/cobalt-strike-4.7.md)
   * [Metasploit](overview/shen-tou-ce-shi/metasploit.md)
+  * [ShellCode](overview/shen-tou-ce-shi/shellcode.md)
+* [💡 基线检查](overview/ji-xian-jian-cha/README.md)
+  * [网络](overview/ji-xian-jian-cha/wang-luo.md)
+  * [交换机](overview/ji-xian-jian-cha/jiao-huan-ji.md)
+  * [IDS入侵检测](overview/ji-xian-jian-cha/ids-ru-qin-jian-ce.md)
+  * [WAF](overview/ji-xian-jian-cha/waf.md)
+  * [防火墙策略](overview/ji-xian-jian-cha/fang-huo-qiang-ce-lve.md)
+  * [主机系统](overview/ji-xian-jian-cha/zhu-ji-xi-tong.md)
+  * [应用安全](overview/ji-xian-jian-cha/fu-wu-pei-zhi/README.md)
+    * [Oracle](overview/ji-xian-jian-cha/fu-wu-pei-zhi/oracle.md)
+    * [SQLserver](overview/ji-xian-jian-cha/fu-wu-pei-zhi/sqlserver.md)
+    * [Mysql](overview/ji-xian-jian-cha/fu-wu-pei-zhi/mysql.md)
+    * [Nginx](overview/ji-xian-jian-cha/fu-wu-pei-zhi/nginx.md)
 * [🦊 主机应急](overview/zhu-ji-ying-ji/README.md)
   * [History](overview/zhu-ji-ying-ji/history.md)
   * [内存镜像&分析](overview/zhu-ji-ying-ji/nei-cun-jing-xiang-fen-xi.md)
@@ -54,6 +55,35 @@
   * [第三方组件](overview/zhu-ji-ying-ji/di-san-fang-zu-jian.md)
   * [WebShell](overview/zhu-ji-ying-ji/webshell.md)
   * [环境变量&系统完整性](overview/zhu-ji-ying-ji/huan-jing-bian-liang-xi-tong-wan-zheng-xing.md)
+* [⚙ 系统设置](overview/xi-tong-she-zhi/README.md)
+  * [基础设置](overview/xi-tong-she-zhi/ji-chu-she-zhi.md)
+  * [Linux](overview/xi-tong-she-zhi/linux.md)
+  * [Windows](overview/xi-tong-she-zhi/windows.md)
+  * [树莓派RaspberryPi3 Model B+](overview/xi-tong-she-zhi/shu-mei-pai-raspberrypi3-model-b+.md)
+
+## service configuration
+
+* [📡 容器](service-configuration/rong-qi/README.md)
+  * [OPENSHIFT](service-configuration/rong-qi/openshift.md)
+  * [Kubernetes](service-configuration/rong-qi/kubernetes.md)
+  * [Docker](service-configuration/rong-qi/docker.md)
+* [🎛 微服务](service-configuration/wei-fu-wu/README.md)
+  * [SpringBoot](service-configuration/wei-fu-wu/springboot.md)
+  * [SpringCloud](service-configuration/wei-fu-wu/springcloud.md)
+  * [Consul](service-configuration/wei-fu-wu/consul.md)
+* [🗃 数据存储&处理](service-configuration/shu-ju-cun-chu-chu-li.md)
+* [🔌 负载&代理](service-configuration/fu-zai-dai-li.md)
+* [📋 日志/监控/告警](service-configuration/ri-zhi-jian-kong-gao-jing.md)
+* [🎯 性能&压测](service-configuration/xing-neng-ya-ce.md)
+* [🛠 CICD](service-configuration/getting-set-up/README.md)
+  * [Jenkis](service-configuration/getting-set-up/jenkis.md)
+
+## DEV configuration
+
+* [Git](dev-configuration/git.md)
+* [Maven](dev-configuration/maven.md)
+* [Shell](dev-configuration/shell.md)
+* [Telegram](dev-configuration/telegram.md)
 
 ## For Developers
 
@@ -62,9 +92,3 @@
 * [Python安全指南](for-developers/python-an-quan-zhi-nan.md)
 * [Go安全指南](for-developers/go-an-quan-zhi-nan.md)
 * [JavaScript安全指南](for-developers/javascript-an-quan-zhi-nan.md)
-
-## ShellCode
-
-* [🛠 Getting set up](shellcode/getting-set-up/README.md)
-  * [📝 一句话](shellcode/getting-set-up/yi-ju-hua.md)
-  * [🧑 Inviting Members](shellcode/getting-set-up/inviting-members.md)
