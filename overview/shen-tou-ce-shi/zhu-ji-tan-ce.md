@@ -4,7 +4,7 @@ description: 基于OSI模型协议探测目标信息
 
 # 主机探测
 
-## Options
+## Nmap Options
 
 |                          |                         |
 | ------------------------ | ----------------------- |
@@ -19,15 +19,19 @@ description: 基于OSI模型协议探测目标信息
 ### 扫描策略
 
 {% tabs %}
-{% tab title="commd" %}
-|               |                                                                |
-| ------------- | -------------------------------------------------------------- |
-| 全面扫描          | nmap –T4 –A –v                                                 |
-| 扫描C段存活\<ICMP> | nmap -sn -PE -T4 192.168.0.0/24                                |
-| 无ping探测       | nmap -p0 192.168.123.1/24                                      |
-| ARP探测         | nmap -sn -PR 192.168.1.1/24                                    |
-| snmp协议探测      | nmap -sU --script snmp-brute 192.168.1.0/24 -T4                |
-| smb协议探测       | nmap ‐sU ‐sS ‐‐script smb‐enum‐shares.nse ‐p 445 192.168.1.119 |
+{% tab title="探测" %}
+|                  |                                                                |
+| ---------------- | -------------------------------------------------------------- |
+| 全面扫描             | nmap –T4 –A –v                                                 |
+| 扫描C段存活\<ICMP>    | nmap -sn -PE -T4 192.168.0.0/24                                |
+| 扫段主机\<Ping>      | nmap -sP 192.168.0.1/24                                        |
+| 无ping探测          | nmap -p0 192.168.123.1/24                                      |
+| 快速探测             | nmap -n -F \<target>                                           |
+| 忽略主机状态，全端口探测     | nmap -Pn -n  \<target>  -p-                                    |
+| ARP探测            | nmap -sn -PR 192.168.1.1/24                                    |
+| snmp协议探测         | nmap -sU --script snmp-brute 192.168.1.0/24 -T4                |
+| smb协议探测          | nmap ‐sU ‐sS ‐‐script smb‐enum‐shares.nse ‐p 445 192.168.1.119 |
+| 利用FIN扫描方式探测防火墙状态 | namp -sF -T4                                                   |
 {% endtab %}
 
 {% tab title="主机发现" %}
@@ -181,9 +185,9 @@ TCP建立连接的过程是：SYN、SYN/ACK、ACK；
 {% endtab %}
 {% endtabs %}
 
+### UDP优化
 
-
-
+<mark style="background-color:yellow;">增加主机并行数（--min-hostgroup）同时扫描多个主机；优先扫描常见端口-F；版本探测时，指定 --version-intensity 0 仅尝试最有可能针对给定端口号有效的探针；从防火墙后扫描；--host-timeout 指定主机超时时间，跳过响应缓慢的主机；最后一条，保持冷静，做点别的，不要盯着进度条，眼不见心不烦（/doge/）</mark>
 
 ## 协议拓展
 
@@ -270,8 +274,6 @@ c:\tmp>powershell.exe -exec bypass -Command "Import-Module .\arpscan.ps1;InvokeA
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-
-
 
 ### SNMP
 
