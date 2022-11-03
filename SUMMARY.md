@@ -81,6 +81,8 @@
 * [🎯 性能&压测](service-configuration/xing-neng-ya-ce.md)
 * [🛠 CICD](service-configuration/getting-set-up/README.md)
   * [Jenkis](service-configuration/getting-set-up/jenkis.md)
+* [解决方案](service-configuration/jie-jue-fang-an/README.md)
+  * [缓存处理](service-configuration/jie-jue-fang-an/huan-cun-chu-li.md)
 
 ## SEcurity
 
