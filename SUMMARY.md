@@ -60,6 +60,7 @@
   * [环境变量&系统完整性](overview/zhu-ji-ying-ji/huan-jing-bian-liang-xi-tong-wan-zheng-xing.md)
 * [🧪 Review](overview/review/README.md)
   * [Vue2](overview/review/vue2.md)
+  * [Fabric2.0](overview/review/fabric2.0.md)
 * [💻 基础指令](overview/ji-chu-zhi-ling.md)
 
 ## service configuration
@@ -81,8 +82,9 @@
 * [🎯 性能&压测](service-configuration/xing-neng-ya-ce.md)
 * [🛠 CICD](service-configuration/getting-set-up/README.md)
   * [Jenkis](service-configuration/getting-set-up/jenkis.md)
-* [解决方案](service-configuration/jie-jue-fang-an/README.md)
-  * [缓存处理](service-configuration/jie-jue-fang-an/huan-cun-chu-li.md)
+* [💊 问题收集](service-configuration/wen-ti-shou-ji/README.md)
+  * [缓存处理](service-configuration/wen-ti-shou-ji/huan-cun-chu-li.md)
+  * [防抖&节流](service-configuration/wen-ti-shou-ji/fang-dou-jie-liu.md)
 
 ## SEcurity
 
@@ -101,7 +103,6 @@
   * [云计算环境安全机制](security/xi-tong-an-quan/yun-ji-suan-huan-jing-an-quan-ji-zhi.md)
   * [移动系统安全](security/xi-tong-an-quan/yi-dong-xi-tong-an-quan.md)
   * [容器安全](security/xi-tong-an-quan/rong-qi-an-quan.md)
-  * [树莓派RaspberryPi3 Model B+](overview/xi-tong-she-zhi/shu-mei-pai-raspberrypi3-model-b+.md)
 * [应用安全](security/ying-yong-an-quan/README.md)
   * [协议逆向](security/ying-yong-an-quan/xie-yi-ni-xiang.md)
   * [恶意代码分析](security/ying-yong-an-quan/e-yi-dai-ma-fen-xi.md)
@@ -120,3 +121,10 @@
   * [Python安全指南](for-developers/python-an-quan-zhi-nan.md)
   * [Go安全指南](for-developers/go-an-quan-zhi-nan.md)
   * [JavaScript安全指南](for-developers/javascript-an-quan-zhi-nan.md)
+
+## Technology
+
+* [区块链 BlockChian](technology/qu-kuai-lian-blockchian/README.md)
+  * [ETH](technology/qu-kuai-lian-blockchian/eth.md)
+  * [NFT](technology/qu-kuai-lian-blockchian/nft.md)
+* [树莓派RaspberryPi3 Model B+](technology/shu-mei-pai-raspberrypi3-model-b+.md)
