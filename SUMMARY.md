@@ -113,8 +113,8 @@
 
 * [汇编](for-developers/hui-bian.md)
 * [高级语言](for-developers/gao-ji-yu-yan.md)
-* [数据机构&算法](for-developers/shu-ju-ji-gou-suan-fa.md)
 * [脚本语言](for-developers/jiao-ben-yu-yan.md)
+* [数据机构&算法](for-developers/shu-ju-ji-gou-suan-fa.md)
 * [代码安全指南](for-developers/dai-ma-an-quan-zhi-nan/README.md)
   * [C,C++安全指南](for-developers/cc++-an-quan-zhi-nan.md)
   * [Java安全指南](for-developers/java-an-quan-zhi-nan.md)
@@ -127,4 +127,4 @@
 * [区块链 BlockChian](technology/qu-kuai-lian-blockchian/README.md)
   * [ETH](technology/qu-kuai-lian-blockchian/eth.md)
   * [NFT](technology/qu-kuai-lian-blockchian/nft.md)
-* [树莓派RaspberryPi3 Model B+](technology/shu-mei-pai-raspberrypi3-model-b+.md)
+* [树莓派RaspberryPi3 Model B+](overview/xi-tong-she-zhi/shu-mei-pai-raspberrypi3-model-b+.md)
