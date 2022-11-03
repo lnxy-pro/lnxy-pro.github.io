@@ -1,6 +1,4 @@
----
-permalink: /index.html
----
+
 
 # 👋 Welcome to A Product
 
