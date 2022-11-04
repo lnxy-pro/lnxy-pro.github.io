@@ -31,6 +31,10 @@
 | 交通/购物/旅游 | 媒体/兴趣/            | 备案icplishi.com/company |
 
 
+
+* Censys
+* Shodan
+* ZoomEye
 {% endtab %}
 
 {% tab title="IP" %}
@@ -141,3 +145,15 @@ MD5    https://www.somd5.com/         http://cmd5.com/
 {% endtab %}
 {% endtabs %}
 
+
+
+*
+  *   判断网站操作系统
+
+      Linux大小写敏感Windows大小写不敏感
+*
+  *   扫描敏感文件
+
+      robots.txtcrossdomain.xmlsitemap.xmlxx.tar.gzxx.bak等
+*
+  *
