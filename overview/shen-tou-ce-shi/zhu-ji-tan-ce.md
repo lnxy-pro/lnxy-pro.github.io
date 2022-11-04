@@ -4,6 +4,22 @@ description: 基于OSI模型协议探测目标信息
 
 # 主机探测
 
+```
+#auth 处理身份验证
+#broadcast网络广播
+#brute暴力猜解
+#discovery服务发现
+#dos拒绝服务
+#exploit漏洞利用
+#external外部扩展
+#fuzzer模糊测试
+#intrusive扫描可能造成不良后果
+#malware检测后门
+#safe 扫描危害较小
+#vesion版本识别
+#vuln漏洞检测
+```
+
 ## Nmap Options
 
 |                          |                         |
@@ -302,3 +318,49 @@ for /l %a in (1,1,254) do start /min /low telnet 192.168.1.%a 445
 ```
 {% endtab %}
 {% endtabs %}
+
+<pre><code><strong>nmap -n -sT -Pn --open -v -p 8080-8090,8443 -sV 192.168.3.100-200 通过常规端口扫描,获取服务banne
+</strong>nmap -A -Pn -sS -p 1-65535 112.5.141.83 -v
+nmap -T4 -A -v 192.168.10.100 
+nmap -A -v www.baidu.com/24
+nmap -p22 192.168.53.1 -sV
+nmap -p1-65535 192.16.53.1 -sV
+nmap -p5000-6000 192.16.53.1 -sV
+nmap -sV -O -T4 192.168.1.107
+-sC: 等价于–script=default，使用默认类别的脚本进行扫描 可更换其他类别 
+–script=&#x3C;Lua scripts>: &#x3C;Lua scripts>使用某个或某类脚本进行扫描，支持通配符描述
+–script-args=&#x3C;n1=v1,[n2=v2,...]> : 为脚本提供默认参数
+–script-args-file=filename: 使用文件来为脚本提供参数
+–script-trace: 显示脚本执行过程中发送与接收的数据
+–script-updatedb: 更新脚本数据库
+–script-help=&#x3C;scripts>: 显示脚本的帮助信息，其中&#x3C;scripts>部分可以逗号分隔的文件或脚本类别
+auth: 负责处理鉴权证书（绕开鉴权）的脚本
+broadcast: 在局域网内探查更多服务开启状况，如dhcp/dns/sqlserver等服务
+brute: 提供暴力破解方式，针对常见的应用如http/snmp等
+default: 使用-sC或-A选项扫描时候默认的脚本，提供基本脚本扫描能力
+discovery: 对网络进行更多的信息，如SMB枚举、SNMP查询等
+dos: 用于进行拒绝服务攻击
+exploit: 利用已知的漏洞入侵系统
+external: 利用第三方的数据库或资源，例如进行whois解析
+fuzzer: 模糊测试的脚本，发送异常的包到目标机，探测出潜在漏洞 intrusive: 入侵性的脚本，此类脚本可能引发对方的IDS/IPS的记录或屏
+malware: 探测目标机是否感染了病毒、开启了后门等信息
+safe: 此类与intrusive相反，属于安全性脚本
+version: 负责增强服务与版本扫描（Version Detection）功能的脚本
+vuln: 负责检查目标机是否有常见的漏洞（Vulnerability），如是否有MS08_067
+•扫描整个子网,命令如下
+•#nmap 192.168.1.1/24
+•扫描多个目标,命令如下：
+•#nmap 192.168.1.2 192.168.1.5
+•扫描一个范围内的目标,如下：
+•#nmap 192.168.1.1-100 (扫描IP地址为192.168.1.1-192.168.1.100内的所有主机)
+•如果你有一个ip地址列表，将这个保存为一个txt文件，
+•和namp在同一目录下,扫描这个txt内的所有主机，命令如下：
+•#nmap -iL target.txt
+•如果你想看到你扫描的所有主机的列表，用以下命令:
+•#nmap -sL 192.168.1.1/24
+•扫描除过某一个ip外的所有子网主机,命令：
+•#nmap192.168.1.1/24-exclude192.168.1.1
+nmap host --script ssh-hostkey --script-args ssh_hostkey=sha256
+nmap -sV --script ssl-enum-ciphers -p 443 &#x3C;主机>
+nmap -p443 --script ssl-cert &#x3C;主机>
+nmap --script ssl-enum-ciphers -p 443 -iL</code></pre>
