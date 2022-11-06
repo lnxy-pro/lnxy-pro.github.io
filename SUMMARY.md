@@ -5,8 +5,7 @@
 ## overview
 
 * [📙 梳理](overview/lou-dong-hui-zong/README.md)
-  * [目标探测](overview/shu-li/mu-biao-tan-ce/README.md)
-    * [PoC探测](overview/lou-dong-hui-zong/poc-tan-ce.md)
+  * [目标探测](overview/shu-li/mu-biao-tan-ce.md)
   * [exp](overview/shu-li/exp/README.md)
     * [分块传输](overview/lou-dong-hui-zong/fen-kuai-chuan-shu.md)
     * [Redis](overview/lou-dong-hui-zong/redis.md)
